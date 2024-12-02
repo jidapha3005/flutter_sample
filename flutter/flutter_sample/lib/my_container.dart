@@ -7,8 +7,8 @@ class MyContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(
-        title: Text('Using container'),
-        backgroundColor: Color(0xFFD50000),
+        title: const Text('Using container'),
+        backgroundColor:const Color(0xFFD50000),
         centerTitle: true,
       ),
       body: Center(child: Column(
@@ -24,7 +24,7 @@ class MyContainer extends StatelessWidget {
     margin:const EdgeInsets.all(50),
     padding:const EdgeInsets.only(top:50,left: 2),
      decoration: BoxDecoration(
-      color: Color(0xFFEC407A),
+      color:const Color(0xFFEC407A),
           border: Border.all(
             color: Colors.black,
             style: BorderStyle.solid,
@@ -35,7 +35,7 @@ class MyContainer extends StatelessWidget {
     child:const Text('M I M E', style: TextStyle(fontSize: 35,fontWeight: FontWeight.bold),),
   );
   Widget container1()=> Container(
-     color: Color(0xFFFF8A80),
+     color:const Color(0xFFFF8A80),
         height: 250,
         width: 300,
         margin: const EdgeInsets.all(50),
